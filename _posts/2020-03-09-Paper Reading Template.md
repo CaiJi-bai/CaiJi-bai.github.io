@@ -11,22 +11,26 @@ categories: [Test]
 作者      |   are neat    
 核心点    |   little      
 
-<table><tbody>
+<table border="1" cellspacing="0">
     <tr>
-        <th rowspan="3">我占了三行</th>
-        <th>第一列</th>
-        <th>第二列</th>
-        <th>第三列</th>
+        <th>论文名字</td>
+        <th>Test</td>
     </tr>
     <tr>
-        <td>第一列</td>
-        <td>第二列</td>
-        <td>第三列</td>
+        <td>来源</td>
+        <td>right-aligned</td>
     </tr>
     <tr>
-        <td>第一列</td>
-        <td>第二列</td>
-        <td>第三列</td>
+        <td>年份</td>
+        <td>centered</td>
+    </tr>
+    <tr>
+        <td>作者</td>
+        <td>are neat</td>
+    </tr>
+    <tr>
+        <td>核心点</td>
+        <td>right-little</td>
     </tr>
 </table>  
 
