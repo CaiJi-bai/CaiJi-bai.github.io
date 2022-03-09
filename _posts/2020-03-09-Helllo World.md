@@ -1,7 +1,7 @@
 ---
 layout: mypost
-title: 主题预览
-categories: [test]
+title: Hello World
+categories: [Test]
 ---
 
-# my first blog
+## my first blog
