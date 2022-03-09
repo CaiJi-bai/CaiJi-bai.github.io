@@ -3,8 +3,8 @@ encoding: utf-8
 # SEO相关信息
 title: bid000 Blog
 description: bid000的个人博客
-keywords: TMaize,Blog,Java,Html,JavaScript
-author: TMaize
+keywords: bid000,Blog,Java,Html,JavaScript
+author: bid000
 footerText: 'Copyright © 2022 辽ICP备88888888号'
 
 # 这些不要动
@@ -17,11 +17,11 @@ exclude: ['CNAME', 'README.md', 'LICENSE', '_site', 'dist', 'Gemfile', 'Gemfile.
 
 # 域名配置
 # baseurl配置,如果网站部署在根目录下的其他目录中，请设置为 /目录名
-domainUrl: 'https://blog.tmaize.net'
+domainUrl: 
 baseurl: ''
 
 # 吐个槽地址，会在chat页面中重定向到该地址
-tucaoUrl: https://support.qq.com/product/86335
+tucaoUrl: https://www.baidu.com
 
 # 菜单
 # 必填字段 title: '文本' url: '链接'
