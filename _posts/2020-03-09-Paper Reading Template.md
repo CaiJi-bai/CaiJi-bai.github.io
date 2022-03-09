@@ -11,10 +11,10 @@ categories: [Test]
 作者      |   are neat    
 核心点    |   little      
 
-<table border="1" cellspacing="0">
+<table border="1">
     <tr>
-        <th>论文名字</td>
-        <th>Test</td>
+        <th>论文名字</th>
+        <th>Test</th>
     </tr>
     <tr>
         <td>来源</td>
