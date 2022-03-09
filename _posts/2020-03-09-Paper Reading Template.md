@@ -4,7 +4,7 @@ title: Paper Reading Template
 categories: [Test]
 ---
 
-| 论文名字  |               |
+| 论文名字  |    Test       |
 | :-----    | :-----       |
 | 来源      | right-aligned |
 | 年份      |   centered    |

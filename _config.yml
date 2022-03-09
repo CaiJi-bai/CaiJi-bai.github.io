@@ -5,7 +5,7 @@ title: bid000 Blog
 description: bid000的个人博客
 keywords: bid000,Blog,Java,Html,JavaScript
 author: bid000
-footerText: 'Copyright © 2022 辽ICP备88888888号'
+footerText: 'Copyright © 2022 辽ICP备888888号'
 
 # 这些不要动
 permalink: /posts/:year/:month/:day/:title.html
