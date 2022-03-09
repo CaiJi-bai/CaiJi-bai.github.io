@@ -1,7 +1,7 @@
 ---
 layout: mypost
-title: 主题预览
-categories: [Jekyll]
+title: Markdown Test
+categories: [Test]
 ---
 
 # 标题
