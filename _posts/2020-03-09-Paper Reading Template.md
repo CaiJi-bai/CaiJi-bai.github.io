@@ -4,34 +4,28 @@ title: Paper Reading Template
 categories: [Test]
 ---
 
-论文名字  |    Test       
-:-----    | :-----       
-来源      | right-aligned 
-年份      |   centered    
-作者      |   are neat    
-核心点    |   little      
-
 <table border="1">
     <tr>
         <th>论文名字</th>
-        <th>Test</th>
+        <th>Federated Learning</th>
     </tr>
     <tr>
         <td>来源</td>
-        <td>right-aligned</td>
+        <td>the 12th ACM Workshop</td>
     </tr>
     <tr>
         <td>年份</td>
-        <td>centered</td>
+        <td>2020年10月</td>
     </tr>
     <tr>
         <td>作者</td>
-        <td>are neat</td>
+        <td>jame</td>
     </tr>
     <tr>
         <td>核心点</td>
-        <td>right-little</td>
+        <td>提出一种基于加密的方法</td>
     </tr>
-</table>  
+</table>
 
-# 内容总结
+# 内容总结  
+文章主要讲了两帮学习的相关知识。
