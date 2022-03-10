@@ -1,25 +1,25 @@
 ---
 layout: mypost
-title: Paper Reading Template
+title: Practical Secure Aggregation for Privacy-Preserving Machine Learning
 categories: [Test]
 ---
 
 <table border="1">
     <tr>
         <th>论文名字</th>
-        <th>Federated Learning</th>
+        <th>Practical Secure Aggregation for Privacy-Preserving Machine Learning</th>
     </tr>
     <tr>
         <td>来源</td>
-        <td>the 12th ACM Workshop</td>
+        <td>CCS’17</td>
     </tr>
     <tr>
         <td>年份</td>
-        <td>2020年10月</td>
+        <td>2017年</td>
     </tr>
     <tr>
         <td>作者</td>
-        <td>jame</td>
+        <td>Keith Bonawitz</td>
     </tr>
     <tr>
         <td>核心点</td>
