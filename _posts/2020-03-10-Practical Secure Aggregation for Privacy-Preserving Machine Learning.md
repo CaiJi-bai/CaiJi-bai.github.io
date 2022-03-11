@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Practical Secure Aggregation for Privacy-Preserving Machine Learning
-categories: [Test]
+categories: [论文阅读]
 ---
 
 <table border="1">
