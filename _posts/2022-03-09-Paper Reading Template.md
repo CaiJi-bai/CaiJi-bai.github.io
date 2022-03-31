@@ -11,7 +11,7 @@ categories: [Test]
     </tr>
     <tr>
         <th>论文中文名字</th>
-        <th>Federated Learning</th>
+        <th>联邦学习</th>
     </tr>
     <tr>
         <td>来源</td>
@@ -23,15 +23,15 @@ categories: [Test]
     </tr>
     <tr>
         <td>作者动机</td>
-        <td>jame</td>
+        <td>解决安全聚合问题</td>
     </tr>
     <tr>
         <td>阅读动机</td>
-        <td>jame</td>
+        <td>经典阅读</td>
     </tr>
     <tr>
         <td>创新点</td>
-        <td>提出一种基于加密的方法</td>
+        <td>提出一种基于双掩码的加密方法</td>
     </tr>
 </table>
 
