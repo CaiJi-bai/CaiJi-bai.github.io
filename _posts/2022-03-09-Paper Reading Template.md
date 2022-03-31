@@ -6,7 +6,11 @@ categories: [Test]
 
 <table border="1">
     <tr>
-        <th>论文名字</th>
+        <th>论文英文名字</th>
+        <th>Federated Learning</th>
+    </tr>
+    <tr>
+        <th>论文中文名字</th>
         <th>Federated Learning</th>
     </tr>
     <tr>
@@ -18,11 +22,15 @@ categories: [Test]
         <td>2020年10月</td>
     </tr>
     <tr>
-        <td>作者</td>
+        <td>作者动机</td>
         <td>jame</td>
     </tr>
     <tr>
-        <td>核心点</td>
+        <td>阅读动机</td>
+        <td>jame</td>
+    </tr>
+    <tr>
+        <td>创新点</td>
         <td>提出一种基于加密的方法</td>
     </tr>
 </table>
