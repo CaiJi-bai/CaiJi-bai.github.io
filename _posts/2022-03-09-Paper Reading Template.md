@@ -14,6 +14,10 @@ categories: [Test]
         <th>联邦学习</th>
     </tr>
     <tr>
+        <td>作者</td>
+        <td>Jame</td>
+    </tr>
+    <tr>
         <td>来源</td>
         <td>the 12th ACM Workshop</td>
     </tr>
