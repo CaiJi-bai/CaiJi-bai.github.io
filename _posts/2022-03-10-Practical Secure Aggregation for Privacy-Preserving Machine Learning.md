@@ -26,10 +26,6 @@ categories: [论文阅读]
         <td>2017年</td>
     </tr>
     <tr>
-        <td>作者</td>
-        <td>Keith Bonawitz</td>
-    </tr>
-    <tr>
         <td>作者动机</td>
         <td>解决安全聚合问题</td>
     </tr>
