@@ -15,7 +15,7 @@ categories: [Test]
     </tr>
     <tr>
         <td>作者</td>
-        <td>Jame</td>
+        <td>Jack</td>
     </tr>
     <tr>
         <td>来源</td>
@@ -27,7 +27,7 @@ categories: [Test]
     </tr>
     <tr>
         <td>作者动机</td>
-        <td>解决安全聚合问题</td>
+        <td>解决问题</td>
     </tr>
     <tr>
         <td>阅读动机</td>
@@ -35,7 +35,7 @@ categories: [Test]
     </tr>
     <tr>
         <td>创新点</td>
-        <td>提出一种基于双掩码的加密方法</td>
+        <td>双掩码</td>
     </tr>
 </table>
 
