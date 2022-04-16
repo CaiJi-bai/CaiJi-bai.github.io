@@ -179,3 +179,76 @@ return temp
 | col 2 is      |   centered    |   \$12 |
 | zebra stripes |   are neat    |    \$1 |
 ```
+
+## 数学公式
+
+需要在配置中开启
+
+这是一行话`\( \int_0^\infty \frac{x^3}{e^x-1}\,dx = \frac{\pi^4}{15} \)`这是一行话
+
+`\[ \int_0^\infty \frac{x^3}{e^x-1}\,dx = \frac{\pi^4}{15} \]`
+
+## 插入 html
+
+<div id="htmldemo"></div>
+<style>
+#htmldemo{
+    height: 30px;
+    width: 30px;
+    background-color: #00aa9a;
+    animation-name: moveX;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode : both;
+}
+@keyframes moveX {
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(100px);
+    }
+}
+</style>
+
+```html
+<div id="htmldemo"></div>
+<style>
+  #htmldemo {
+    height: 30px;
+    width: 30px;
+    background-color: #00aa9a;
+    animation-name: moveX;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+  }
+  @keyframes moveX {
+    0% {
+      transform: translateX(0px);
+    }
+    100% {
+      transform: translateX(100px);
+    }
+  }
+</style>
+```
+
+## 插入 iframe
+
+<iframe src="//music.163.com/outchain/player?type=2&id=28445796&auto=0&height=66" frameborder="0" width="100%" height="86px" ></iframe>
+
+```html
+<!-- 属性什么的不要错了，最好用双引号括住 -->
+<!-- 网易云的iframe需要做些调整，调整如下 -->
+<iframe
+  src="//music.163.com/outchain/player?type=2&id=28445796&auto=0&height=66"
+  frameborder="0"
+  width="100%"
+  height="86px"
+></iframe>
+```
