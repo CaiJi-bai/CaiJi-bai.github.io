@@ -48,6 +48,10 @@ categories: [论文阅读]
 - **正则图**：各顶点的度均相同的无向简单图。
 - **k-连通图**：对于连通图G，其连通度K(G)>=k。换言之，对于k-连通图G，不存在大小为k-1的点集S，使得G-S不连通。（没有孤立点，任意两个顶点间有至少一条通路）
 
+# 参数
+
+![参数](参数.png)
+
 # the semi-honest protocol  
 
 **半诚实的（诚实但好奇的，被动的）敌手**：敌手诚实的遵守协议，但也会试图从接收到的信息中学习更多除输出以外的信息。  
@@ -60,9 +64,10 @@ categories: [论文阅读]
 （3）E3：不能有太多掉线的邻居节点，否则没有足够多的邻居节点来进行秘密重建(1 ≤ t ≤ k)  
 ![图生成算法](GenerateGraph.png)&nbsp;
 - **聚合协议**  
+（1）
 ![聚合协议](abstract summation protocol.png)&nbsp;
 - **性能开销**  
-假设各种基本操作的时间复杂度都是$O(1)$，$k=O(\log n)$，$l$是指客户端的输入向量长度。  
+假设各种基本操作的时间复杂度都是$O(1)$，$k=O(\log n)$，$l$ 是指客户端的输入向量长度。  
 客户端计算：$O(\log^2 n + l\log n)$  
 客户端通信：$O(\log n + l)$  
 服务器计算：$O(n\log^2 n + nl\log n)$  
@@ -89,10 +94,18 @@ categories: [论文阅读]
 - **聚合协议**
 ![聚合协议](summation protocol in the malicious setting.png)&nbsp;
 - **性能开销**  
-假设各种基本操作的时间复杂度都是$O(1)$，$k=O(\log n)$，$l$是指客户端的输入向量长度。  
+假设各种基本操作的时间复杂度都是$O(1)$，$k=O(\log n)$，$l$ 是指客户端的输入向量长度。  
 客户端计算：$\log^2 n + l\log n$  
 客户端通信：$\log n + l$  
 服务器计算：$n\log^2 n + nl\log n$  
 服务器通信：$n\log n + nl$
 - **实验结果**  
 ![实验结果](实验结果2.png)  
+
+# secure shuffling  
+
+因为实现shuffling需要利用可信的计算硬件或者类似于洋葱路由那样的混合网络，而利用上述的summation算法来实现secure shuffling操作，这样可以避免引入新的计算开销和通信开销。  
+这里引入了一种数据结构IBLT：invertible Bloom lookup table ，IBLT里的每个元素存着（key，value）。2个IBLT相加相当于对2个IBLT的元素求并集。
+- **具体实现方法**
+(1) 每个客户端都创建一个新的IBLT，并从一个集合里选取一个随机数作为key（为了避免跟其他客户端选到了同一个随机数，这个集合得大一点，比如 $2^64$ 这种量级），然后将要发送的内容作为value，将（key，value）插入到IBLT中  
+(2) 服务器对每个客户端发来的IBLT进行summation（最终会得到一个IBLT，在这个IBLT里无法根据key或者value来推出发送方是谁，从而实现了shuffling操作）
