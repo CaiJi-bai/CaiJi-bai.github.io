@@ -27,7 +27,7 @@ categories: [论文阅读]
     </tr>
     <tr>
         <td>作者动机</td>
-        <td>（1）secure aggregation效率太低，如何在保证安全的情况下去提升效率？<br>（2）shuffle model 开销大，如何去降低开销？</td>
+        <td>（1）secure aggregation 效率太低，如何在保证安全的情况下去提升效率？<br>（2）shuffle model 开销大，如何去降低开销？</td>
     </tr>
     <tr>
         <td>阅读动机</td>
@@ -65,9 +65,10 @@ categories: [论文阅读]
 客户端计算：$\log^2 n + l\log n$  
 客户端通信：$\log n + l$  
 服务器计算：$n\log^2 n + nl\log n$  
-服务器通信：$n\log n + nl$  
+服务器通信：$n\log n + nl$
 - **实验**  
-  
+![实验结果](实验结果1.png)  
+
 # the malicious protocol
 
 **恶意的（主动的）敌手**：敌手不遵守协议，可以执行任意的攻击行为。  
@@ -86,3 +87,10 @@ categories: [论文阅读]
 (3) 客户端 i 要是收到了超过 4k 个密钥（说明里面包含了伪造的客户端密钥），则终止。否则用 Merkle tree 验证收到的密钥的正确性
 - **聚合协议**
 ![聚合协议](summation protocol in the malicious setting.png)&nbsp;
+- **性能开销**  
+客户端计算：$\log^2 n + l\log n$  
+客户端通信：$\log n + l$  
+服务器计算：$n\log^2 n + nl\log n$  
+服务器通信：$n\log n + nl$
+- **实验结果**  
+![实验结果](实验结果2.png)  
