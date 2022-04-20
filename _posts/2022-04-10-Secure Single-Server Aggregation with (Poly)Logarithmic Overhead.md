@@ -62,11 +62,12 @@ categories: [论文阅读]
 - **聚合协议**  
 ![聚合协议](abstract summation protocol.png)&nbsp;
 - **性能开销**  
-客户端计算：$\log^2 n + l\log n$  
-客户端通信：$\log n + l$  
-服务器计算：$n\log^2 n + nl\log n$  
-服务器通信：$n\log n + nl$
-- **实验**  
+假设各种基本操作的时间复杂度都是$O(1)$，$k=O(\log n)$
+客户端计算：$O(\log^2 n + l\log n)$  
+客户端通信：$O(\log n + l)$  
+服务器计算：$O(n\log^2 n + nl\log n)$  
+服务器通信：$O(n\log n + nl)$
+- **实验结果**  
 ![实验结果](实验结果1.png)  
 
 # the malicious protocol
