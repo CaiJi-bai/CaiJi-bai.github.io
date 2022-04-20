@@ -27,7 +27,7 @@ categories: [论文阅读]
     </tr>
     <tr>
         <td>作者动机</td>
-        <td>（1）secure aggregation效率太低，如何在保证安全的情况下去提升效率？（2）shuffle model 开销大，如何去降低开销？</td>
+        <td>（1）secure aggregation效率太低，如何在保证安全的情况下去提升效率？<br>（2）shuffle model 开销大，如何去降低开销？</td>
     </tr>
     <tr>
         <td>阅读动机</td>
@@ -64,6 +64,9 @@ categories: [论文阅读]
 客户端通信：$\log n + l$  
 服务器计算：$n\log^2 n + nl\log n$  
 服务器通信：$n\log n + nl$  
+
+- **实验**  
+
 
 # the malicious protocol
 **恶意（主动的）**：敌手不遵守协议，可以执行任意的攻击行为。  
