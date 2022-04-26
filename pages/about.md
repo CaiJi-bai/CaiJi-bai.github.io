@@ -3,7 +3,7 @@ layout: mypost
 title: 关于我
 ---
 
-> Hello 陌生人，欢迎访问 bid000 Blog。我是bid000，一个爱摸鱼的IT打工人。
+> Hello 陌生人，欢迎访问 bid000 Blog。我是bid000，一个爱摸鱼的 IT 打工人。
 
 该博客托管于 GitHub Page。
 
@@ -11,7 +11,7 @@ title: 关于我
 
 ## 相关技能
 
-- 熟悉 JavaScript 语言， 熟练使用 Vue 全家桶,jQuery 等前端框架
+- 熟悉 JavaScript 语言， 熟练使用 Vue 全家桶，jQuery 等前端框架
 
 - 熟悉 Java，NodeJs,Go 等后端语言
 
@@ -22,6 +22,8 @@ title: 关于我
 - Linux 的简单使用，各种服务的搭建
 
 - 能够使用 Git/SVN 对代码版本进行控制
+
+- The Most Important: 使用各种语言输出 Hello World
 
 ## 联系我
 
