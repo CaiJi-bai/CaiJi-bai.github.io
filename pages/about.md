@@ -23,7 +23,7 @@ title: 关于我
 
 - 能够使用 Git/SVN 对代码版本进行控制
 
-- The Most Important: 使用各种语言输出 Hello World
+- The Most Important: 熟练使用各种语言输出 Hello World
 
 ## 联系我
 
