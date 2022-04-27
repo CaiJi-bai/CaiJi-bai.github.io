@@ -147,8 +147,8 @@ categories: [论文阅读]
 
 # secure shuffling  
 
-因为实现 shufflin 需要利用可信的计算硬件或者类似于洋葱路由那样的混合网络，而利用上述的 summation 算法来实现 secure shuffling 操作，这样可以避免引入新的计算开销和通信开销。  
-这里引入了一种数据结构 IBLT：invertible Bloom lookup table ，IBLT里的每个元素存着（key，value）。2个IBLT相加相当于对2个IBLT的元素求并集。
+因为实现 shuffling 需要利用可信的计算硬件或者类似于洋葱路由那样的混合网络，而利用上述的 summation 算法来实现 secure shuffling 操作，这样可以避免引入新的计算开销和通信开销。  
+这里引入了一种数据结构 IBLT：invertible Bloom lookup table ，IBLT里的每个元素存着（key，value）。2 个 IBLT 相加相当于对 2 个 IBLT 的元素求并集。
 - **具体实现方法**  
-(1) 每个客户端都创建一个新的IBLT，并从一个集合里选取一个随机数作为key（为了避免跟其他客户端选到了同一个随机数，这个集合得大一点，比如 `$2^{64}$` 这种量级），然后将要发送的内容作为value，将（key，value）插入到IBLT中  
-(2) 服务器对每个客户端发来的IBLT进行summation（最终会得到一个IBLT，在这个IBLT里无法根据key或者value来推出发送方是谁，从而实现了shuffling操作）  
+(1) 每个客户端都创建一个新的 IBLT，并从一个集合里选取一个随机数作为 key（为了避免跟其他客户端选到了同一个随机数，这个集合得大一点，比如 `$2^{64}$` 这种量级），然后将要发送的内容作为 value，将（key，value）插入到 IBLT 中  
+(2) 服务器对每个客户端发来的 IBLT 进行 summation（最终会得到一个 IBLT，在这个 IBLT 里无法根据 key 或者 value 来推出发送方是谁，从而实现了 shuffling 操作）  
