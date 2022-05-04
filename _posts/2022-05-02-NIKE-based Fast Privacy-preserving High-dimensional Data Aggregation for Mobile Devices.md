@@ -70,7 +70,7 @@ categories: [论文阅读]
 
 ![安全聚合和协议](Protocol 2-1.png)
 ![安全聚合和协议](Protocol 2-2.png)
-![安全聚合和协议](Protocol 2-3.png)<br>
+![安全聚合和协议](Protocol 2-3.png)
 
 + Round 0：非交互式成对密钥计算（NIKE）
   + 每个用户从 SSPs 接收两对秘密共享多项式
