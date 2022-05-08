@@ -27,7 +27,7 @@ categories: [论文阅读]
     </tr>
     <tr>
         <td>作者动机</td>
-        <td>提高聚合方案的通信和计算效率</td>
+        <td>提高聚合方案的通信和计算效率，（1）其密钥协商阶段的开销巨大，（2）秘密分享和恢复也是很消耗时间的。</td>
     </tr>
     <tr>
         <td>阅读动机</td>
@@ -35,7 +35,7 @@ categories: [论文阅读]
     </tr>
     <tr>
         <td>创新点</td>
-        <td>（1）引入了 NIKE，在线下计算 master key。这种方法比 D-H 协议更加高效；<br>
+        <td>（1）引入了 NIKE，在离线阶段计算 master key。这种方法比 D-H 协议更加高效；<br>
             （2）对于 one-time pairwise key 的秘密分享采用 2-3 来取代 t-m。
         </td>
     </tr>
