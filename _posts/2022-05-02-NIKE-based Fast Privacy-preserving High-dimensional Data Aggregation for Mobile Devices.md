@@ -67,7 +67,7 @@ categories: [论文阅读]
    + 非交互式成对密钥计算 (NPKC) 方案由三个算法的元组组成：  
    ![NPKC](NPKC算法组成.png)
    + 具体实现  
-   ![NPKC](NPKC具体实现.png)  
+   ![NPKC](NPKC具体实现.png)
    其中，子协议 `$\pi_{EXP}$` 的细节如下所示：  
    ![EXP](EXP.png)
 
