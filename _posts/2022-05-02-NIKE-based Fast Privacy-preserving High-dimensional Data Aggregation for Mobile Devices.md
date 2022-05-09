@@ -68,8 +68,8 @@ categories: [论文阅读]
    ![NPKC](NPKC算法组成.png)
    + 具体实现  
    ![NPKC](NPKC具体实现.png)  
-   其中，子协议 `$\phi_{EXP}$` 的细节如下所示：  
-   ![EXP](EXP。png)
+   其中，子协议 `$\pi_{EXP}$` 的细节如下所示：  
+   ![EXP](EXP.png)
 
 
 # 安全聚合方案  
