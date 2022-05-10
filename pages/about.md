@@ -3,7 +3,7 @@ layout: mypost
 title: 关于我
 ---
 
-> Hello 陌生人，欢迎访问 bid000 Blog。我是bid000，一个爱摸鱼的 IT 打工人。
+> Hello 陌生人，欢迎访问 bid000 Blog。我是 bid000，一个爱摸鱼的 IT 打工人。
 
 该博客托管于 GitHub Page。
 

@@ -21,7 +21,7 @@ domainUrl: https://github.com/CaiJi-bai
 baseurl: ''
 
 # 吐个槽地址，会在chat页面中重定向到该地址
-tucaoUrl: https://www.baidu.com
+tucaoUrl: https://github.com/CaiJi-bai/CaiJi-bai.github.io/issues
 
 # 菜单
 # 必填字段 title: '文本' url: '链接'
