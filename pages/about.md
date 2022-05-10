@@ -31,4 +31,4 @@ title: 关于我
 
 - Email&nbsp;: [baizekai8888@163.com](http://www.baidu.com)
 
-- GitHub: [https://github.com/caiji-bai](https://github.com/caiji-bai)
+- GitHub: [https://github.com/CaiJi-bai](https://github.com/CaiJi-bai)
