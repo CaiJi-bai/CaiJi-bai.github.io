@@ -101,8 +101,7 @@ categories: [论文阅读]
 
 ![计算LINSLG](计算LINSLG.png)
 
-其中IP_USER求向量内积，`$t$` 用来存储加密的梯度。
-
+其中IP_USER求向量内积，`$t$` 用来存储加密的梯度。  
 而IP_USER算法如下：
 
 ![加密内积](加密内积.png)
