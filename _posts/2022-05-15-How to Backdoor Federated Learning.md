@@ -86,6 +86,5 @@ categories: [论文阅读]
 ![算法2](算法2.png)
 
 算法 2 显示了 constrain-and-scale 方法，这个 loss 添加了一个额外项 `$\mathcal L_{ano}$`：
-$$\mathcal L_{model} = \alpha \mathcal L_{class} + (1-\alpha) \mathcal L_{ano}$$
-
+`$$\mathcal L_{model} = \alpha \mathcal L_{class} + (1-\alpha) \mathcal L_{ano}$$`
 因为攻击者的数据包含正常数据和后门数据，`$\mathcal{L}{\operatorname{class}}$` 标识正常数据和后门数据上的准确性，然后 `$\mathcal{L}{\operatorname{ano}}$` 标识任意类型异常检测，比如权重上的 p-norm。超参数 `$\alpha$` 控制比例。
