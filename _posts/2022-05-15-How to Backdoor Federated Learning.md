@@ -11,19 +11,19 @@ categories: [论文阅读]
     </tr>
     <tr>
         <th>论文中文名字</th>
-        <th>如何后门联邦学习</th>
+        <th>如何进行联邦学习后门攻击</th>
     </tr>
     <tr>
         <td>作者</td>
-        <td>Jack</td>
+        <td>Eugene Bagdasaryan, Andreas Veit, Yiqing Hua, Deborah Estrin, Vitaly Shmatikov</td>
     </tr>
     <tr>
         <td>来源</td>
-        <td>the 12th ACM Workshop</td>
+        <td>23rd AISTATS 2020: Online [Palermo, Sicily, Italy]</td>
     </tr>
     <tr>
         <td>年份</td>
-        <td>2020年10月</td>
+        <td>2020年8月</td>
     </tr>
     <tr>
         <td>作者动机</td>
@@ -44,10 +44,9 @@ categories: [论文阅读]
 # 为什么会受到模型中毒攻击
 
 联邦学习通常容易受到后门和其他模型中毒攻击影响的主要原因：
-
 1. 当有数百万参与者进行训练时，不可能确保他们都不是恶意的。
-2. 联邦学习的一个假设就是 device 上的数据分布是 Non-IID 的，并且为了聚合的安全性，会引入安全聚合，这样就很难进行异常检测了。
-3. 深度学习的能力很强，即便是在主任务上不引人任何 backdoor，device 还是容易从 subtask 上引入 backdoor。
+2. 联邦学习的一个假设就是参与者的数据分布是 Non-IID 的，并且为了聚合的安全性，会引入安全聚合，这样就很难进行异常检测了。
+3. 现代深度学习模型的巨大容量。模型质量的常规指标衡量的是模型对其主要任务的了解程度，但不能衡量模型对其主要任务的了解程度。这种额外的容量可用于引入隐蔽的后门，而不会对模型的准确性产生重大影响。
 
 # 联邦学习
 
