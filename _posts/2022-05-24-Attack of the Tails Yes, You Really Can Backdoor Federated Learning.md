@@ -68,9 +68,17 @@ p 值较小的 p-edge-case 可以看作是一组标记示例，其中输入特�
 
 # 实验
 
-数据集：CIFAR 10/ImageNet/EMNIST/Reddit/Sentiment 140
-模型：VGG-9/VGG-11/LeNet/LSTMs
-评估指标：测试准确率
++ 数据集：CIFAR 10/ImageNet/EMNIST/Reddit/Sentiment 140
++ 模型：VGG-9/VGG-11/LeNet/LSTMs
++ 评估指标：测试准确率
++ 攻击者参与模式：固定频率和固定池
++ 防御手段：范数差异裁剪、KRUM、MULTI-KRUM、RFA 和弱差分隐私
+
+![图4](图4.png)
+
++ 攻击的有效性随着我们允许诚实的客户使用更多的 `$D_{edge}$` 而下降，证明了纯边缘情况攻击是最强的。
+
+![图5](图5.png)
 
 # 总结
 
