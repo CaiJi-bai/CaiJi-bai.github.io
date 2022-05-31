@@ -43,17 +43,18 @@ categories: [论文阅读]
 
 # 聚合方法
 
-1. FedAvg
+(1) FedAvg
 
 ![公式1](公式1.png)
 
-1. [(Sun et al. 2019)](https://caiji-bai.github.io/posts/2022/05/21/Can-You-Really-Backdoor-Federated-Learning.html)表明，当 FedAvg 与 (Geyer, Klein, and Nabi 2017) 中介绍的权重裁剪和噪声添加相结合时，可以使 FedAvg 在某些设置中对后门攻击具有鲁棒性。<br>
+(2) [(Sun et al. 2019)](https://caiji-bai.github.io/posts/2022/05/21/Can-You-Really-Backdoor-Federated-Learning.html)表明，当 FedAvg 与 (Geyer, Klein, and Nabi 2017) 中介绍的权重裁剪和噪声添加相结合时，可以使 FedAvg 在某些设置中对后门攻击具有鲁棒性。
+
 ![公式2](公式2.png)
 
-2. [(Fung, Yoon, and Beschastnikh 2020)](https://caiji-bai.github.io/posts/2022/05/21/Can-You-Really-Backdoor-Federated-Learning.html)试图通过引入每个客户端的学习率而不是在服务器端使用单一的学习率来使 FL 变得健壮。
+(3) [(Fung, Yoon, and Beschastnikh 2020)](https://caiji-bai.github.io/posts/2022/05/21/Can-You-Really-Backdoor-Federated-Learning.html)试图通过引入每个客户端的学习率而不是在服务器端使用单一的学习率来使 FL 变得健壮。
 
 ![公式3](公式3.png)
 
-3. 在 (Bernstein et al. 2018) 中，作者开发了一种通信高效的分布式 SGD 协议，其中代理只通信其梯度的符号。在这种情况下，服务器聚合接收到的符号并将聚合的符号返回给使用它在本地更新其模型的代理。 我们将他们的聚合技术称为符号聚合。
+(4) 在 (Bernstein et al. 2018) 中，作者开发了一种通信高效的分布式 SGD 协议，其中代理只通信其梯度的符号。在这种情况下，服务器聚合接收到的符号并将聚合的符号返回给使用它在本地更新其模型的代理。 我们将他们的聚合技术称为符号聚合。
 
 ![公式4](公式4.png)
