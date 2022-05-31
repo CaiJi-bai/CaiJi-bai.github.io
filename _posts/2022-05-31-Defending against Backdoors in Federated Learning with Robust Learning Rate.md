@@ -47,11 +47,11 @@ categories: [论文阅读]
 
 ![公式1](公式1.png)
 
-(2) [(Sun et al. 2019)](https://caiji-bai.github.io/posts/2022/05/21/Can-You-Really-Backdoor-Federated-Learning.html)表明，当 FedAvg 与 (Geyer, Klein, and Nabi 2017) 中介绍的权重裁剪和噪声添加相结合时，可以使 FedAvg 在某些设置中对后门攻击具有鲁棒性。
+(2) [(Sun et al. 2019)](https://caiji-bai.github.io/posts/2022/05/21/Can-You-Really-Backdoor-Federated-Learning.html) 表明，当 FedAvg 与 (Geyer, Klein, and Nabi 2017) 中介绍的权重裁剪和噪声添加相结合时，可以使 FedAvg 在某些设置中对后门攻击具有鲁棒性。
 
 ![公式2](公式2.png)
 
-(3) [(Fung, Yoon, and Beschastnikh 2020)](https://caiji-bai.github.io/posts/2022/05/21/Can-You-Really-Backdoor-Federated-Learning.html)试图通过引入每个客户端的学习率而不是在服务器端使用单一的学习率来使 FL 变得健壮。
+(3) [(Fung, Yoon, and Beschastnikh 2020)](https://caiji-bai.github.io/posts/2022/05/21/Can-You-Really-Backdoor-Federated-Learning.html) 试图通过引入每个客户端的学习率而不是在服务器端使用单一的学习率来使 FL 变得健壮。
 
 ![公式3](公式3.png)
 
