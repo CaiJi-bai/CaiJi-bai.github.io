@@ -23,7 +23,7 @@ categories: [Test]
     </tr>
     <tr>
         <td>年份</td>
-        <td>2020年10月</td>
+        <td>2020 年 10 月</td>
     </tr>
     <tr>
         <td>作者动机</td>
