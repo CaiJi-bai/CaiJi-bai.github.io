@@ -106,6 +106,8 @@ categories: [论文阅读]
 
 ![No-IID 训练曲线](No-IID 训练曲线.png)
 
+(a) FedAvg (b) FedAvg with RLR (c) FedAvg under clipping&noise (d) FedAvg with RLR under clipping&noise
+
 ![不同聚合的准确率](不同聚合的准确率.png)
 
 RLR 防御提供了最好的保护，并且对验证准确性的影响最小。
@@ -121,7 +123,12 @@ RLR 防御提供了最好的保护，并且对验证准确性的影响最小。
 
 ![参数归因实验结果](参数归因实验结果.png)
 
+(a) FedAvg, (b) FedAvg with RLR in i.i.d. setting, and (c) FedAvg, (d) FedAvg with RLR in non-i.i.d. setting  
+净影响是诚实代理和对抗代理对木马样本映射的影响之间差异的累积总和。
+
 ![特征归因实验结果](特征归因实验结果.png)
+
+FM：使用 FedAvg 训练的模型的，没有任何攻击，FM：使用 FedAvg 训练的模型的，受到攻击，FM：使用 FedAvg 和 RLR 训练的模型的，遭到攻击。
 
 # 总结
 
