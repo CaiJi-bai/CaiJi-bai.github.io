@@ -51,7 +51,7 @@ categories: [论文阅读]
 
 ![公式2](公式2.png)
 
-(3) [(Fung, Yoon, and Beschastnikh 2020)](https://caiji-bai.github.io/posts/2022/05/21/Can-You-Really-Backdoor-Federated-Learning.html) 试图通过引入每个客户端的学习率而不是在服务器端使用单一的学习率来使 FL 变得健壮。
+(3) [(Fung, Yoon, and Beschastnikh 2020)](https://caiji-bai.github.io/posts/2022/04/04/Mitigating-Sybils-in-Federated-Learning-Poisoning.html) 试图通过引入每个客户端的学习率而不是在服务器端使用单一的学习率来使 FL 变得健壮。
 
 ![公式3](公式3.png)
 
