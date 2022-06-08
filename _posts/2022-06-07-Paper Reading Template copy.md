@@ -1,0 +1,69 @@
+---
+layout: mypost
+title: FLARE Defending Federated Learning against Model Poisoning Attacks via Latent Space Representations
+categories: [Test]
+---
+
+<table border="1">
+    <tr>
+        <th>论文英文名字</th>
+        <th>FLARE: Defending Federated Learning against Model Poisoning Attacks via Latent Space Representations</th>
+    </tr>
+    <tr>
+        <th>论文中文名字</th>
+        <th>FLARE: 通过潜在空间表示保护联邦学习免受模型中毒攻击</th>
+    </tr>
+    <tr>
+        <td>作者</td>
+        <td>Ning Wang, Yang Xiao, Yimin Chen, Yang Hu, Wenjing Lou, Y. Thomas Hou</td>
+    </tr>
+    <tr>
+        <td>来源</td>
+        <td>17th AsiaCCS 2022: Nagasaki, Japan</td>
+    </tr>
+    <tr>
+        <td>年份</td>
+        <td>2022 年 5 月</td>
+    </tr>
+    <tr>
+        <td>作者动机</td>
+        <td>专注于分析模型参数的现有防御措施在检测这种精心设计的有毒模型方面效果有限</td>
+    </tr>
+    <tr>
+        <td>阅读动机</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>创新点</td>
+        <td>利用模型的倒数第二层表示 (PLRs) 来表征对每个局部模型更新的对抗性影响</td>
+    </tr>
+</table>
+
+# 内容总结  
+
+# 预备知识
+
+1. 拜占庭弹性聚合规则（BRARs），如 KRUM
+2. 使用异常检测方法来检测恶意的本地模型更新并将它们排除在聚合之外
+
+# 系统模型
+
+1. 具有信任分数的联邦学习
+
+![联邦学习系统模型](联邦学习系统模型.png)
+
+2. 威胁模型
+
++ 假设恶意客户端的数量少于 `$0.5n$`
++ 每个恶意客户端都是白盒对手
+
+# 倒数第二层表示
+
+什么是倒数第二层？
+
+![CNN结构](CNN结构.png)
+
+函数 `$g$` 的输出是一个 PLR，用r ∈ R𝑜`$r \in \mathbb{R}_O$`表示。
+
+它在分离 MPA 中的作用
+
