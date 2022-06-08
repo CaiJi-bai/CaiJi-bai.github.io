@@ -74,6 +74,10 @@ categories: [Test]
 
 # 倒数第二层表示
 
++ 动机
+
+![动机示例](动机示例.png)
+
 + 什么是倒数第二层？
 
 ![CNN结构](CNN结构.png)
@@ -84,7 +88,11 @@ categories: [Test]
 
 ![命题1](命题1.png)
 
+意味着 r 与模板 `$\omega_k$` 之间的距离越小（当 r 与其他模型之间的距离固定时），r 被分类为类 k 的可能性就越大。 
+
 ![命题2](命题2.png)
+
+意味着 PLR 空间的差异将转化为相应输出概率的差异。
 
 + 可视化 PLR 分布
 
@@ -125,7 +133,7 @@ FLARE (**F**ederated learning + **LA**tent-space **RE**presentations)
 
 `$R_j := \{g_{w_j}(x_1),...,g_{w_j}(x_m)\}$`
 
-FLARE 对 $R_i$ 和 $R_j$ 应用 MMD [12] 来测试两个 PLR 序列是否遵循相同的分布。
+FLARE 对 $R_i$ 和 $R_j$ 应用 MMD（最大平均差异）来测试两个 PLR 序列是否遵循相同的分布。
 
 ![MMD无偏估计](MMD无偏估计.png)
 
