@@ -62,7 +62,7 @@ categories: [Test]
 
 ![CNN结构](CNN结构.png)
 
-函数 `$g$` 的输出是一个 PLR，用r ∈ R𝑜`$r \in \mathbb{R}_O$`表示。
+函数 `$g$` 的输出是一个 PLR，用 `$r \in \mathbb{R}^O$` 表示。
 
 它在分离 MPA 中的作用
 
