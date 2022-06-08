@@ -125,6 +125,12 @@ FLARE (**F**ederated learning + **LA**tent-space **RE**presentations)
 
 `$R_j := \{g_{w_j}(x_1),...,g_{w_j}(x_m)\}$`
 
+FLARE 对 $R_i$ 和 $R_j$ 应用 MMD [12] 来测试两个 PLR 序列是否遵循相同的分布。
 
+![MMD无偏估计](MMD无偏估计.png)
+
+FLARE 利用最近邻的计数来估计模型更新的信任分数。PS 根据 MMD 分数为每个局部模型选择前 50% 的最近邻。一旦 `$w_i$` 被任何 `$w_j$` 选择（𝑗 ≠ 𝑖），`$w_i$` 的计数 `${ct}_i$` 就会增加一。计数 `${ct}_i$` 值表示可信度。然后我们使用带温度的 softmax 函数将计数值转换为信任分数：
+
+![带有温度的softmax](带有温度的softmax.png)
 
 
