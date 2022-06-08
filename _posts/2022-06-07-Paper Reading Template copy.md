@@ -121,6 +121,10 @@ FLARE (**F**ederated learning + **LA**tent-space **RE**presentations)
 
 如何估计信任分数？
 
+`$g_{w_j}: x \in \mathbb{R}^{d1 \times d2 \times d3} \rightarrow r \in \mathbb{R}^o$`
+
+`$R_j := \{g_{w_j}(x_1),...,g_{w_j}(x_m)\}$`
+
 
 
 
