@@ -62,7 +62,7 @@ categories: [Test]
 
 ![CNN结构](CNN结构.png)
 
-函数 `$g$` 的输出是一个 PLR，用 `$r \in \mathbb{R}^O$` 表示。
+函数 `$g$` 的输出是一个 PLR，用 `$r \in \mathbb{R}^o$` 表示。
 
 它在分离 MPA 中的作用
 
@@ -73,3 +73,11 @@ categories: [Test]
 可视化 PLR 分布
 
 ![PLRs可视化](PLRs可视化.png)
+
+# FLARE: 防御 MPAs
+
++ FLARE 概述
+
+![FLARE设计](FLARE设计.png)
+
++ 详细设计
