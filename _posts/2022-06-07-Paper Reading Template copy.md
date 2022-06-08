@@ -100,6 +100,12 @@ categories: [Test]
 
 + FLARE 概述
 
+FLARE (**F**ederated learning + **LA**tent-space **RE**presentations)
+
 ![FLARE设计](FLARE设计.png)
 
+![FLARE算法](FLARE算法.png)
+
 + 详细设计
+
+
