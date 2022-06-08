@@ -104,8 +104,15 @@ FLARE (**F**ederated learning + **LA**tent-space **RE**presentations)
 
 ![FLARE设计](FLARE设计.png)
 
+1. 本地客户端首先将其本地模型更新 `$\delta_i$` 提交给 PS；  
+2. PS 使用辅助数据集计算每个本地模型的 PLR ；
+3. FLARE 根据 PLR 的最大平均差异 (MMD) 计算每个局部模型的最近邻。一个客户端被选为其他客户端最近邻居的计数用于估计其信任分数 `$S_i$` ；
+4. 最后，PS 聚合由信任分数加权的模型更新，并使用它来更新全局模型。
+
 ![FLARE算法](FLARE算法.png)
 
 + 详细设计
+
+
 
 
