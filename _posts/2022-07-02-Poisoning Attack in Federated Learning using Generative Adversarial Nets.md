@@ -128,5 +128,5 @@ Delta
 
 # 参考
 
-1. [生成对抗网络GAN](https://blog.csdn.net/google19890102/article/details/124500755)
-2. [深度学习-生成对抗网络](https://blog.csdn.net/qq_40671063/article/details/124758568)
+1. [生成对抗网络GAN](https://blog.csdn.net/google19890102/article/details/124500755){:target="_blank"}
+2. [深度学习-生成对抗网络](https://blog.csdn.net/qq_40671063/article/details/124758568){:target="_blank"}
