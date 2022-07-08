@@ -179,7 +179,7 @@ categories: [论文阅读]
 
 # 参考
 
-1. [联邦学习模型鲁棒性攻击](https://blog.csdn.net/m0_50609661/article/details/124480959)
+1. [联邦学习模型鲁棒性攻击](https://blog.csdn.net/m0_50609661/article/details/124480959){:target="_blank"}
 2. [联邦学习鲁棒性及相关论文分享](https://blog.csdn.net/weixin_44015907/article/details/111199114)
 
 # 问题
