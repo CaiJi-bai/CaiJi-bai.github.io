@@ -152,3 +152,7 @@ categories: [论文阅读]
 - **具体实现方法**  
 (1) 每个客户端都创建一个新的 IBLT，并从一个集合里选取一个随机数作为 key（为了避免跟其他客户端选到了同一个随机数，这个集合得大一点，比如 `$2^{64}$` 这种量级），然后将要发送的内容作为 value，将（key，value）插入到 IBLT 中  
 (2) 服务器对每个客户端发来的 IBLT 进行 summation（最终会得到一个 IBLT，在这个 IBLT 里无法根据 key 或者 value 来推出发送方是谁，从而实现了 shuffling 操作）  
+
+# 参考
+
+1. [Secure Single-Server Aggregation with (Poly)Logarithmic Overhead](https://zhuanlan.zhihu.com/p/403179338){:target="_blank"}

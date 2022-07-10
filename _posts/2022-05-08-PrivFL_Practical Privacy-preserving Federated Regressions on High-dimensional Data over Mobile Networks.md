@@ -140,6 +140,12 @@ categories: [论文阅读]
 
 我们打算在智能手机上实施 PrivFL 以评估其效率。由于当今的服务器平台配备了多个 CPU，我们正在努力在服务器端设计一个简单且并行的实现接口，以减少计算时间。在保持第 4.2 节中的一般协议流程相同的同时，我们将在另一篇论文中将我们的工作扩展到神经网络。作为未来的工作，调查用户异步参与训练阶段的情况会很有趣。
 
+# 参考
+
+1. [联邦学习入门（二）-Practical Secure Aggregation for Privacy-Preserving Machine Learning论文算法详解](https://blog.csdn.net/wenzhu2333/article/details/107704778?spm=1001.2014.3001.5502){:target="_blank"}
+2. [论文阅读-Practical Secure Aggregation for Privacy-Preserving Machine Learning](https://zhuanlan.zhihu.com/p/445656765){:target="_blank"}
+3. [Secure Aggregation](https://zhuanlan.zhihu.com/p/83786131){:target="_blank"}
+
 # 会议记录
 
 1. 规划讲述流程

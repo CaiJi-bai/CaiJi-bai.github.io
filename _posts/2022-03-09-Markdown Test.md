@@ -35,10 +35,10 @@ categories: [Test]
 
 ## 超链接
 
-[TMaize Blog](http://blog.tmaize.net)
+[Bid000 Blog](https://caiji-bai.github.io)
 
 ```
-[TMaize Blog](http://blog.tmaize.net)
+[Bid000 Blog](https://caiji-bai.github.io)
 ```
 
 ## 引用
