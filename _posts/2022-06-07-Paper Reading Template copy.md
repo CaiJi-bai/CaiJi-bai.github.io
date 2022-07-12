@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: FLARE Defending Federated Learning against Model Poisoning Attacks via Latent Space Representations
-categories: [Test]
+categories: [论文阅读]
 ---
 
 <table border="1">
