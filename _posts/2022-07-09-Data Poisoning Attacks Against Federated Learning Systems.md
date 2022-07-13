@@ -156,3 +156,5 @@ categories: [论文阅读]
 # 参考
 
 1. [精确率(精准率)，召回率，F1值的通俗解释](https://zhuanlan.zhihu.com/p/97870600){:target="_blank"}
+2. [PCA：详细解释主成分分析](https://blog.csdn.net/lanyuelvyun/article/details/82384179){:target="_blank"}
+3. [如何通俗易懂地讲解什么是 PCA（主成分分析）？](https://www.zhihu.com/question/41120789/answer/481966094){:target="_blank"}
