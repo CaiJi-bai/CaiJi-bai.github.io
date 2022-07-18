@@ -15,7 +15,7 @@ categories: [论文阅读]
     </tr>
     <tr>
         <td>作者</td>
-        <td>Jack</td>
+        <td>Chulin Xie, Keli Huang, Pin-Yu Chen, Bo Li</td>
     </tr>
     <tr>
         <td>来源</td>
