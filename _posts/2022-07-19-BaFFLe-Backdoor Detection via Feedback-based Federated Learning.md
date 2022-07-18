@@ -1,29 +1,29 @@
 ---
 layout: mypost
-title: Paper Reading Template
-categories: [Test]
+title: BaFFLe: Backdoor Detection via Feedback-based Federated Learning
+categories: [论文阅读]
 ---
 
 <table border="1">
     <tr>
         <th>论文英文名字</th>
-        <th>Federated Learning</th>
+        <th>BaFFLe: Backdoor Detection via Feedback-based Federated Learning</th>
     </tr>
     <tr>
         <th>论文中文名字</th>
-        <th>联邦学习</th>
+        <th>通过基于反馈的联合学习进行后门检测</th>
     </tr>
     <tr>
         <td>作者</td>
-        <td>Jack</td>
+        <td>Sébastien Andreina, Giorgia Azzurra Marson, Helen Möllering</td>
     </tr>
     <tr>
         <td>来源</td>
-        <td>会议名称 [会议等级]</td>
+        <td>41st ICDCS 2021: Washington DC, USA [CCF 计算机体系结构/并行与分布计算/存储系统 B 类会议]</td>
     </tr>
     <tr>
         <td>年份</td>
-        <td>2020 年 10 月</td>
+        <td>2021 年 7 月</td>
     </tr>
     <tr>
         <td>作者动机</td>

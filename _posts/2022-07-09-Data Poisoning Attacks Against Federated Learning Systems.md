@@ -19,7 +19,7 @@ categories: [论文阅读]
     </tr>
     <tr>
         <td>来源</td>
-        <td>25th ESORICS 2020: Guildford, UK - Part I（CCF 网络与信息安全 B 类）</td>
+        <td>25th ESORICS 2020: Guildford, UK - Part I [CCF 网络与信息安全 B 类会议]</td>
     </tr>
     <tr>
         <td>年份</td>
