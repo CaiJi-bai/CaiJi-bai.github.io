@@ -1,6 +1,6 @@
 ---
 layout: mypost
-title: BaFFLe: Backdoor Detection via Feedback-based Federated Learning
+title: BaFFLe-Backdoor Detection via Feedback-based Federated Learning
 categories: [论文阅读]
 ---
 
@@ -11,7 +11,7 @@ categories: [论文阅读]
     </tr>
     <tr>
         <th>论文中文名字</th>
-        <th>通过基于反馈的联合学习进行后门检测</th>
+        <th>基于反馈的联邦学习的后门检测</th>
     </tr>
     <tr>
         <td>作者</td>

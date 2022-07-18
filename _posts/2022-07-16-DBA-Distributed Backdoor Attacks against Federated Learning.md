@@ -1,6 +1,6 @@
 ---
 layout: mypost
-title: DBA: Distributed Backdoor Attacks against Federated Learning
+title: DBA-Distributed Backdoor Attacks against Federated Learning
 categories: [论文阅读]
 ---
 
