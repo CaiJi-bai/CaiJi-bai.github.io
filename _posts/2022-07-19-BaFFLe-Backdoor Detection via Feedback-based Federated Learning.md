@@ -89,14 +89,20 @@ categories: [论文阅读]
 
 + source-focused error: `$err_D(f)^{y\rightarrow x}$`（将类 y 预测错误为其他类）
 + target-focused error: `$err_D(f)^{x\rightarrow y}$`（将其他类错误预测为类 y）
++ 定义了两个模型之间的 wrong-prediction gap
 
 ![公式2和公式3](公式2和公式3.png)
 
 + `$\mathbf{v} = [\mathbf{v}^s,\mathbf{v}^t]$`
++ 局部离群值因子（LOF）
+  + 通过检测一个点与邻居的接近度和邻居自身的接近度来检测数据集中的离群值
+  + `$LOF_k(x;N)$`
 
 ### 设计
 
 ![算法2](算法2.png)
+
+当且仅当当前变化 `$v_r$` 在 LOF 的意义上足够接近从已接受模型的历史中获得的相应值时，模型`$G^r$`才被接受。
 
 # 实验
 
