@@ -107,6 +107,7 @@ categories: [论文阅读]
 # 实验
 
 + 数据集：CIFAR-10 和 FEMNIST
++ 数据分布：Non-IID
 + 训练模型：ResNet18 CNN 模型
 + 攻击策略：由单个客户端操作的模型替换攻击和标签反转
 + 防御配置：仅服务器（BAFFLE-S）、仅客户端（BAFFLE-C）和两者（BAFFLE）
