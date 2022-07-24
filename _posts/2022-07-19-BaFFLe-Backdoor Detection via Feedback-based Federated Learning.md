@@ -164,3 +164,7 @@ categories: [论文阅读]
 # 参考
 
 1. [离群点检测——局部离群因子(Local Outlier Factor，LOF)算法](https://blog.csdn.net/Albert201605/article/details/118341478){:target="_blank"}
+
+# 问题
+
+1. 客户端互相验证
