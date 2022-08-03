@@ -88,9 +88,9 @@ categories: [论文阅读]
 
 # 实验
 
-数据集：CIFAR-10 [16] 和 EMNIST [17]。
-数据分布：Non-iid
-模型：ResNet18 和 具有两个卷积层、一个最大池化层和两个密集层的五层 CNN 
++ 数据集：CIFAR-10 和 EMNIST
++ 数据分布：Non-IID
++ 模型：ResNet18 和 具有两个卷积层、一个最大池化层和两个密集层的五层 CNN
 
 ![后门图像示例](后门图像示例.png)
 
