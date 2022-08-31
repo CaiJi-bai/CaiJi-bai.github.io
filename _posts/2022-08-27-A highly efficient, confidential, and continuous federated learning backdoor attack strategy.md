@@ -35,7 +35,7 @@ categories: [论文阅读]
     </tr>
     <tr>
         <td>创新点</td>
-        <td></td>
+        <td>（1）通过攻击者的协商来征服 FoolsGold 防御；（2）改进的 FedSGD 后门攻击梯度上传策略（3）位木马方法来实现 no-iid 联邦学习的持久性</td>
     </tr>
 </table>
 
