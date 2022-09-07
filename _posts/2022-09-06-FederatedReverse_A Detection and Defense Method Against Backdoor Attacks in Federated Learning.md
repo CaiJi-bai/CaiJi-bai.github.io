@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: FederatedReverse_A Detection and Defense Method Against Backdoor Attacks in Federated Learning
-categories: [Test]
+categories: [论文阅读]
 ---
 
 <table border="1">

@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Resisting Distributed Backdoor Attacks in Federated Learning_A Dynamic Norm Clipping Approach
-categories: [Test]
+categories: [论文阅读]
 ---
 
 <table border="1">
