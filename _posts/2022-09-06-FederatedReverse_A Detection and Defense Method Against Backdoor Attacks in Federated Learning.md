@@ -212,3 +212,8 @@ FederatedReverse 包括逆向工程、全局反向触发器生成、异常值检
 # 参考
 
 1. [[论文阅读] 07.S&P19-Neural Cleanse: Identifying and Mitigating Backdoor Attacks in Neural Networks](https://zhuanlan.zhihu.com/p/493084257){:target="_blank"}
+
+# 问题
+
+1. 恶意客户端上传正常反向触发器后再进行后门攻击？
+2. 对后面攻击进行准确的定义？
