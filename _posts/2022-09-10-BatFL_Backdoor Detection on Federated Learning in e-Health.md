@@ -156,4 +156,5 @@ categories: [论文阅读]
 
 # 参考
 
-1. [百度](https://www.baidu.com){:target="_blank"}
+1. [博弈论学习笔记：合作博弈](https://zhuanlan.zhihu.com/p/69065868){:target="_blank"}
+2. [合作博弈：夏普利值（shapley value）性质与算法](https://blog.csdn.net/weixin_46530492/article/details/123613951){:target="_blank"}
