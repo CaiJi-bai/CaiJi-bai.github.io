@@ -1,7 +1,7 @@
 ---
 layout: mypost
-title: Paper Reading Template
-categories: [Test]
+title: Defense against backdoor attack in fe derate d learning
+categories: [论文阅读]
 ---
 
 <table border="1">
@@ -15,7 +15,7 @@ categories: [Test]
     </tr>
     <tr>
         <td>作者</td>
-        <td>Jack</td>
+        <td></td>
     </tr>
     <tr>
         <td>来源</td>
@@ -58,7 +58,7 @@ categories: [Test]
 
 # 模型替换攻击的持久性
 
-在模型替换攻击中，攻击者训练一个后门模型 `$w_j^{backdoor}$`&ensp;并将（6）中的恶意更新 `$\Delta_j^r$` 发送到服务器，旨在用近似后门模型 `$w_j^{backdoor}$` 替换全局模型 `$w_G^{r+1}$`。然而，在 FL 中多次聚合后，聚合模型的参数分布会发生变化，因此嵌入的后门可能会逐渐失效。
+在模型替换攻击中，攻击者训练一个后门模型 `$w_j^{backdoor}$` &ensp;并将（6）中的恶意更新 `$\Delta_j^r$` 发送到服务器，旨在用近似后门模型 `$w_j^{backdoor}$` 替换全局模型 `$w_G^{r+1}$`。然而，在 FL 中多次聚合后，聚合模型的参数分布会发生变化，因此嵌入的后门可能会逐渐失效。
 
 ![模型替换攻击下聚合模型中后门的持久性](模型替换攻击下聚合模型中后门的持久性.png)
 
