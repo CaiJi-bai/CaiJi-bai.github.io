@@ -1,6 +1,6 @@
 ---
 layout: mypost
-title: Defense against backdoor attack in fe derate d learning
+title: Defense against backdoor attack in federated learning
 categories: [论文阅读]
 ---
 
