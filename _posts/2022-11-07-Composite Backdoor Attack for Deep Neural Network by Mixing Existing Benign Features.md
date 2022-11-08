@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Composite Backdoor Attack for Deep Neural Network by Mixing Existing Benign Features
-categories: [Test]
+categories: [论文阅读]
 ---
 
 <table border="1">
@@ -95,18 +95,15 @@ categories: [Test]
 
 ![针对防御技术的评估](针对防御技术的评估.png)
 
-
 # 可能的防御
 
-随机配对看是否正确分类
+![复合攻击的概念图解](复合攻击的概念图解.png)
+
+
 
 # 总结
 
-1. 学到了怎么去制作语义后门攻击的中毒数据集
+1. 怎么去制作语义后门攻击的中毒数据集
 2. 怎么去把它变成分布式的语义后门攻击？
 3. 组合语义后门攻击的临时特征还是不太明白
-4. 攻击论文实验占比较大，要分析各种因素对攻击的影响 尽可能提出简单的防御
-
-# 参考
-
-1. [百度](https://www.baidu.com){:target="_blank"}
+4. 攻击论文实验占比较大，要分析各种因素对攻击的影响 分析攻击成功的原因并提出简单的防御
