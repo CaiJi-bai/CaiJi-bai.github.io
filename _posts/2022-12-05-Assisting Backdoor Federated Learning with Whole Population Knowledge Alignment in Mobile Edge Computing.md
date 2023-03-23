@@ -23,7 +23,7 @@ categories: [论文阅读]
     </tr>
     <tr>
         <td>年份</td>
-        <td>2020 年 9 月</td>
+        <td>2022 年 9 月</td>
     </tr>
     <tr>
         <td>作者动机</td>
