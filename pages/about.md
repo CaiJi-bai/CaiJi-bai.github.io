@@ -27,8 +27,6 @@ title: 关于我
 
 ## 联系我
 
-- QQ&nbsp;&nbsp;&nbsp;&nbsp;: 1750439940
-
 - Email&nbsp;: [baizekai8888@163.com](http://www.baidu.com)
 
 - GitHub: [https://github.com/CaiJi-bai](https://github.com/CaiJi-bai)
